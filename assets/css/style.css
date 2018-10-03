@@ -76,6 +76,14 @@ a, a:hover {
 	transition: 0.5s;
 }
 
+#resume, #fileicon {
+	color: #FBBA0A /*selectiveyellow*/;
+}
+
+#resume:hover, #fileicon:hover{
+	color: #ED5C66 /*lightcarminepink*/;
+}
+
 .intro-1 {
 	margin-top: 5px;
 }
