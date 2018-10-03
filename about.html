@@ -38,7 +38,7 @@
 		</ul>
 	</nav>
 <!-- </header> -->
-<main class="container-fluid">
+<main class="container">
 
 	<content class="about-row row">
 		<div class="about col-12">
@@ -160,36 +160,19 @@
 
 <footer class="container-fluid">
 	<div class="row">
-		<!-- <div class="footer-1 col-12 col-lg-6"> -->
-			<a class="links col-6 col-lg-3" href="https://www.linkedin.com/in/jechris-ramos-595126169/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-			<a class="links col-6 col-lg-3" href="https://github.com/Jechrisramos"><i class="fab fa-github fa-2x" target="_blank"></i></a>
-			<a class="links col-6 col-lg-3" href="https://gitlab.com/jechrisramos25"><i class="fab fa-gitlab fa-2x" target="_blank"></i></a>
-			<a class="links col-6 col-lg-3" href="https://web.facebook.com/Jechris-Porfolio-218499535655754/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></i></a>
-		<!-- </div> -->
 		<div class="footer-1 col-12 col-lg-12">
-			<h1>JECHRIS RAMOS</h1>
-			<p>Jechrisramos25@gmail.com</p>
-			<p>0917-256-9487</p>
+			<h1 class="ftrP">JECHRIS RAMOS</h1>
+			<p class="ftrP">Jechrisramos25@gmail.com</p>
+			<p class="ftrP">0917-256-9487</p>
+		</div>
+		<div class="ftrlink col-lg-12">
+			<a id="linkedIn" class="medias col-6 col-lg-3" href="https://www.linkedin.com/in/jechris-ramos-595126169/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+			<a id="github" class="medias col-6 col-lg-3" href="https://github.com/Jechrisramos"><i class="fab fa-github fa-2x"></i></a>
+			<a id="gitlab" class="medias col-6 col-lg-3" href="https://gitlab.com/jechrisramos25"><i class="fab fa-gitlab fa-2x"></i></a>
+			<a id="facebook" class="medias col-6 col-lg-3" href="https://web.facebook.com/Jechris-Porfolio-218499535655754/"><i class="fab fa-facebook-f fa-2x"></i></i></a>
 		</div>
 	</div>
 </footer>
-
-	<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active");
-		    var panel = this.nextElementSibling;
-		    if (panel.style.maxHeight){
-		      panel.style.maxHeight = null;
-		    } else {
-		      panel.style.maxHeight = panel.scrollHeight + "px";
-		    } 
-		  });
-		}
-	</script>
 
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -200,5 +183,10 @@
 	<!-- animate js -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 	<script src="assets/js/css3-animate-it.js"></script>
+
+	<!-- barba js -->
+	<!-- <script src="barba.min.js" type="text/javascript"></script> -->
+	<!-- external -->
+	<!-- <script type="text/javascript" src="assets/js/external.js"></script> -->
 </body>
 </html>
