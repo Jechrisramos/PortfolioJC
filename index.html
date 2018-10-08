@@ -21,6 +21,10 @@
 	<link rel="icon" href="j-icon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- <script src="barba.min.js" type="text/javascript"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript"></script> -->
+
 </head>
 <body>
 <header>
@@ -41,11 +45,11 @@
 <main class="container">
 	<content class="intro-row row">
 		<div id="prt-img" class="intro-1 col-12 col-lg-4 animatedParent">
-			<img class="jcon animated bounceInDown" src="assets/images/j-icon.png">
+			<img class="jcon animated bounceInDown" src="assets/images/new-j-icon.png">
 			<h1 id="port" class="animated bounceInDown">PORTFOLIO</h1>
 			<div class="inner-row row animatedParent" data-sequence='10'>
 				<div class="inner col-12 col-md-12 col-lg-12">
-					<h3 class="animated bounceInLeft" data-id="1">&minus; Content &minus; </h3>
+					<h3 class="contenth3 animated bounceInLeft" data-id="1">&minus; Content &minus; </h3>
 				</div>
 				<div class="inner col-12 col-md-4 col-lg-12">
 					<h5 class="animated bounceInLeft" data-id="1">Web Projects</h5>
@@ -58,6 +62,9 @@
 				</div>
 				<div class="inner col-12 col-md-12 col-lg-12">
 					<h5 class="animated bounceInLeft" data-id="3">Logo Designs</h5>
+				</div>
+				<div class="inner col-12 col-md-12 col-lg-12">
+					<a id="resume" href="https://drive.google.com/file/d/1KxzYJjatPFgCIXn-J-eNj3ouuruaacfq/view?usp=sharing" target="_blank"><h5 class="animated bounceInRight"><i id="fileicon" class="fas fa-file"></i> My Resume</h5></a>
 				</div>
 			</div>
 		</div><!-- endcol -->
@@ -79,7 +86,7 @@
 			<div class="intro-3 col-12 col-lg-12 animated bounceInRight">
 			<hr>
 			<p><q>I happen to be a full-stack Web Developer. Thanks to Tuitt Philippines I enhanced my skills both on Front and Back end Website Development and I recently finished my Web Development Training there on <strong>Tuitt</strong>. I can tell you that the bootcamp is very great, it allows me to open new doors; it refreshes my skills, and keeps me on track to the latest versions of softwares for unfolding new possibilities on web developing.</q></p>
-			<p>Come as I proudly present some of my works to you. Please click <a class="text-primary" href="project.html">here</a>.</p>
+			<p>Come as I proudly present some of my works to you. Please click <a href="project.html">here</a>.</p>
 			<!-- <div class="row">
 				<div class="inner col-12 col-lg-6">
 					<h2>Websites &amp; designs</h2>
@@ -95,36 +102,19 @@
 
 <footer class="container-fluid">
 	<div class="row">
-		<!-- <div class="footer-1 col-12 col-lg-6"> -->
-			<a class="links col-6 col-lg-3" href="https://www.linkedin.com/in/jechris-ramos-595126169/"><i class="fab fa-linkedin-in fa-2x"></i></a>
-			<a class="links col-6 col-lg-3" href="https://github.com/Jechrisramos"><i class="fab fa-github fa-2x"></i></a>
-			<a class="links col-6 col-lg-3" href="https://gitlab.com/jechrisramos25"><i class="fab fa-gitlab fa-2x"></i></a>
-			<a class="links col-6 col-lg-3" href="https://web.facebook.com/Jechris-Porfolio-218499535655754/"><i class="fab fa-facebook-f fa-2x"></i></i></a>
-		<!-- </div> -->
 		<div class="footer-1 col-12 col-lg-12">
-			<h1>JECHRIS RAMOS</h1>
-			<p>Jechrisramos25@gmail.com</p>
-			<p>0917-256-9487</p>
+			<h1 class="ftrP">JECHRIS RAMOS</h1>
+			<p class="ftrP">Jechrisramos25@gmail.com</p>
+			<p class="ftrP">0917-256-9487</p>
+		</div>
+		<div class="ftrlink col-lg-12">
+			<a id="linkedIn" class="medias col-6 col-lg-3" href="https://www.linkedin.com/in/jechris-ramos-595126169/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+			<a id="github" class="medias col-6 col-lg-3" href="https://github.com/Jechrisramos"><i class="fab fa-github fa-2x"></i></a>
+			<a id="gitlab" class="medias col-6 col-lg-3" href="https://gitlab.com/jechrisramos25"><i class="fab fa-gitlab fa-2x"></i></a>
+			<a id="facebook" class="medias col-6 col-lg-3" href="https://web.facebook.com/Jechris-Porfolio-218499535655754/"><i class="fab fa-facebook-f fa-2x"></i></i></a>
 		</div>
 	</div>
 </footer>
-
-	<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active");
-		    var panel = this.nextElementSibling;
-		    if (panel.style.maxHeight){
-		      panel.style.maxHeight = null;
-		    } else {
-		      panel.style.maxHeight = panel.scrollHeight + "px";
-		    } 
-		  });
-		}
-	</script>
 
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -135,5 +125,10 @@
 	<!-- animate js -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 	<script src="assets/js/css3-animate-it.js"></script>
+
+	<!-- <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script> -->
+	<!-- external -->
+	<!-- <script type="text/javascript" src="assets/js/external.js"></script> -->
+
 </body>
 </html>
